@@ -1,0 +1,6 @@
+# neue klasse generieren:
+rails generate scaffold User name:string email:string
+
+# db upadten:
+bundle exec rake db:migrate
+
